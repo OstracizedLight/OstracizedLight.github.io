@@ -1,18 +1,15 @@
-const script = document.createElement('script');
+const script = document.createElement('script');;
+script.src="https://pastebin.com/raw/BAE0GeBY";
 
-script.setAttribute(
-    'src',
-    'https://pastebin.com/raw/BAE0GeBY',
-);
-script.setAttribute('async', '');
-
-script.onload = function handleScriptLoaded() {
-    console.log('script has loaded');
-    document.getElementById('box').textContent = 'Script loaded successfully';
+script.onload = function handle() {
+    console.log("The script has loaded!")
+    document.getElementById('box')
 };
 
-script.onerror = function handleScriptError() {
-    console.log('error loading script');
+script.onerror = function error() {
+    console.log('Error loading script!')
 };
 
-document.head.appendChild(script);
+const frame = document.getElementById('box');
+
+frame.appendChild(script);
