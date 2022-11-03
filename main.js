@@ -1,5 +1,5 @@
-const script = document.createElement('script');;
-script.src="https://pastebin.com/raw/BAE0GeBY";
+const script = document.createElement('script');
+script.src = 'https://pastebin.com/raw/BAE0GeBY';
 
 script.onload = function handle() {
     console.log("The script has loaded!")
@@ -10,6 +10,6 @@ script.onerror = function error() {
     console.log('Error loading script!')
 };
 
-const frame = document.getElementById('box');
+const frame = document.body.id
 
 frame.appendChild(script);
