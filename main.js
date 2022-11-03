@@ -12,6 +12,6 @@ script.onerror = function error() {
     console.log('Error loading script!')
 };
 
-const frame = document.body.id
+const frame = document.body.getElementById('2fort');
 
 frame.appendChild(script);
